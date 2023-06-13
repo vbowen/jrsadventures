@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Session ##</title>
+		<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+		<link type="text/css" rel="stylesheet" href="../styles.css" />
+		<script src="sessionScript.js"></script>
+</head>
+<body>
+  <div id="allcontent">
+    <div id="banner">
+		<a href="../index.html"><img src="../images/homeBanner2.png" alt="D&D Banner" /></a>
+	</div> <!--Closes the Banner div-->
+	
+	<div id="navigation">
+		<ul>
+			<li><a class="home" href="../index.html">Home</a></li>
+			<li class="dropdown"><a class="dropbtn" href="../Lyle.html">Lyle Goodbarrel</a>
+				<div class="dropdownSessions">
+				<!--Update this list lyle.html, DMHome.html, index.html, sessionTemplate. lyleLoot.html, lyleNPCs.html, lyleQuests.html, lyleLocations.html, and sheet.html -->
+					<a href="../lyleLoot.html">Loot</a>
+					<a href="../lyleNPCs.html">NPCs</a>
+					<a href="../lyleQuests.html">Quests</a>
+					<a href="../lyleLocations.html">Locations</a>
+					<a href="session1.html">Session 1 (14 January 2023)</a>
+					<a href="session2.html">Session 2 (21 January 2023)</a>
+					<a href="session3.html">Session 3 (28 January 2023)</a>
+					<a href="session4.html">Session 4 (04 February 2023)</a>
+					<a href="session5.html">Session 5 (18 February 2023)</a>
+					<a href="session7.html">Session 7 (04 March 2023)</a>
+					<a href="session8.html">Session 8 (11 March 2023)</a>
+					<a href="session9.html">Session 9 (18 March 2023)</a>
+					<a href="session10.html">Session 10 (1 April 2023)</a>
+					<a href="session11.html">Session 11 (22 April 2023)</a>
+					<a href="session12.html">Session 12 (29 April 2023)</a>
+					<a href="session13.html">Session 13 (06 May 2023)</a>
+					<a href="session14.html">Session 14 (20 May 2023)</a>
+					<a href="session15.html">Session 15 (27 May 2023)</a>
+					<a href="session16.html">Session 16 (03 June 2023)</a>
+					<!-- <a href="session.html">Session</a> -->
+				</div></li>				
+			<li><a class="DM" href="../DMHome.html">Dungeon Master</a></li>
+			<li><a class="sheets" href="../sheets.html">Character Sheets</a></li>
+		</ul>
+
+  	</div> <!--Closes the Navigation Div-->
+	<div id="intro">	
+		<h1 id="sessionID">Session XX</h1>
+		<h2>XXXXX</h2>
+
+		<h3>Notes</h3>
+
+<!-- Loot!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+		<h3><a href="../lyleLoot.html">Loot</a></h3>
+			<table style="width:100%">
+				<tr>
+					<th>Item</th>
+					<th>Given By/Bought</th>
+					<th>Who has it</th>
+					<th style="width:50%">Properties</th>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+<!-- NPCs!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+		<h3><a href="../lyleNPCs.html">NPCs</a></h3>
+			<table style="width:100%">
+				<tr>
+					<th>Name</th>
+					<th>Race/Class</th>
+					<th>Gender</th>
+					<th>Met/Location</th>
+					<th>Quests</th>
+					<th>Remarks/Notes</th>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+<!-- Locations!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+		<h3><a href="../lyleLocations.html"></h3>
+			<table style="width:100%">
+				<tr>
+					<th>Name</th>
+					<th style="width:70%">Description</th>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+<!-- Quests!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+		<h3><a href="../lyleQuests.html">Quests</a></h3>
+			<table style="width:100%">
+				<tr>
+					<th>Given by</th>
+					<th style="width:70%">Information</th>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		<div id="next">
+			<a id="nextLink" href="#" onclick="nextPage()">Next &rarr;</a>  <!--nextPage() uses current h1 sessionID to grab next page -->
+		</div>
+		<div id="previous">
+			<a id="previousLink" href="#" onclick="previousPage()">&larr; Previous</a>
+		</div>
+		<p><br></p>
+	</div> <!-- closes Intro Div -->
+  </div>
+   <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+</script>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+</html>
