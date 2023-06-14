@@ -260,9 +260,13 @@ font: bold 15px Arial;
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-
 #flavorBorder {
 background-image: url(images/flavorBanner.png);
-width:600px;
-height:auto;
+background-size: cover;
+
+width:300px;
+height:100%;
+color: black;
+text-align: center;
+padding: 30px;
 }
