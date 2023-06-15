@@ -3,9 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Home</title>
-	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-	<link rel="stylesheet" href="styles.css">
-	<script src="./sessions/sessionScript.js"></script>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+	<link rel="stylesheet" href="styles.css" />
+	<script src="./sessions/sessionScript.js" type="text/javascript"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script type="text/javascript">
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+	</script>
 </head>
 <body>
 	<div id="allcontent">
@@ -53,14 +58,8 @@
 			<p>The next tab is for when I begin <abbr title="Dungeon Master">DM</abbr>ing. I will detail out adventures I run and how
 				the characters adventures turn out.</p>
 			<p>The final table will be a collection of character sheets. Currently it just contains Lyle's character sheet.</p>
-			
-
 	</div>
 	</div> <!--closes the All Content Div-->
-</body>
-<script>
-	// When the user scrolls down 20px from the top of the document, show the button
-	window.onscroll = function() {scrollFunction()};
-	</script>
-	  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>	  
 </html>

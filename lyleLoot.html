@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<head>	
 		<title>Lyle Loot</title>
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 		<link type="text/css" rel="stylesheet" href="styles.css" />
-		<script src="./sessions/sessionScript.js"></script>
+		<script src="sessions/sessionScript.js" type="text/javascript"></script>		
 </head>
 <body>
   <div id="allcontent">
@@ -56,7 +56,7 @@
 		<h3>Loot</h3>
 			<p>An overall list of all the loot gained throughout this campaign.</p>
 			<p>Non-homebrew items will be provided with a link and a short description. Homebrew items will be listed
-				with details on their use in the property section<p>
+				with details on their use in the property section</p>
 			<p>Items that are crossed out are items that are no longer in our possession, but existed at some point. 
 				Details as to who they were given to will be provided if able</p>
 			<p>This data is being created after Session 15, so not everything will be listed and not everything will be
@@ -121,7 +121,7 @@
 					<td>A map of the Copia Wildwoods.</td>
 				</tr>
 				<tr>
-					<td id="strangeMetalTin">Strange Metal Tin</a>
+					<td id="strangeMetalTin">Strange Metal Tin</td>
 					<td>Found in Yussa's tree tower living space</td>
 					<td>Session 2</td>
 					<td>Lyle</td>
@@ -250,12 +250,19 @@
 						but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive.</td>
 				</tr>
 			</table>
+		<div id="next">
+			<a id="nextLink" href="lyleNPCs.html">NPCs &rarr;</a>  <!--  -->
+		</div>
+		<div id="previous">
+			<a id="previousLink" href="Lyle.html">&larr; Lyle Home</a> 
+		</div>
+		<p><br /></p>
 	</div> <!-- closes Intro Div -->
   </div>
-  <script>
-	// When the user scrolls down 20px from the top of the document, show the button
-	window.onscroll = function() {scrollFunction()};
+	<script type="text/javascript">
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
 	</script>
-	  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<button onclick="topFunction()" id="myBtn" title="Go to top" type="button">Top</button>
 </body>
 </html>
