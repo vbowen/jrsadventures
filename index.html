@@ -5,7 +5,7 @@
 	<title>Home</title>
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 	<link rel="stylesheet" href="styles.css" />
-	<script src="./sessions/sessionScript.js" type="text/javascript"></script>
+	<script src="sessions/sessionScript.js" type="text/javascript"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<script type="text/javascript">
 	// When the user scrolls down 20px from the top of the document, show the button
@@ -15,14 +15,14 @@
 <body>
 	<div id="allcontent">
 	<div id="banner">
-		<a href="index.html"><img src="images/homeBanner2.png" alt="D&amp;D Banner" /></a>
+		<a href="index.html"><img src="images/homeBanner2.png" alt="D&amp;D Banner" onload="dropListHigh()" /></a>
 	</div> <!--Closes the Banner div-->
 	<div id="navigation">
 		<ul>
 			<li><a class="home" href="index.html">Home</a></li>
 			<li class="dropdown"><a class="dropbtn" href="Lyle.html">Lyle Goodbarrel</a>
-				<div class="dropdownSessions">
-					<a href="lyleLoot.html">Loot</a>
+				<div class="dropdownSessions" id="dropList">
+					<!-- <a href="lyleLoot.html">Loot</a>
 					<a href="lyleNPCs.html">NPCs</a>
 					<a href="lyleQuests.html">Quests</a>
 					<a href="lyleLocations.html">Locations</a>
@@ -31,6 +31,7 @@
 					<a href="sessions/session3.html">Session 3 (28 January 2023)</a>
 					<a href="sessions/session4.html">Session 4 (04 February 2023)</a>
 					<a href="sessions/session5.html">Session 5 (18 February 2023)</a>
+					<a href="sessions/session6.html">Session 6 (25 February 2023)</a>
 					<a href="sessions/session7.html">Session 7 (04 March 2023)</a>
 					<a href="sessions/session8.html">Session 8 (11 March 2023)</a>
 					<a href="sessions/session9.html">Session 9 (18 March 2023)</a>

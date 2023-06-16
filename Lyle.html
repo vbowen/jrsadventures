@@ -2,22 +2,26 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
+	<title>Lyle Goodbarrel</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>Lyle Goodbarrel</title>
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-		<link type="text/css" rel="stylesheet" href="styles.css" />
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+	<link type="text/css" rel="stylesheet" href="styles.css" />
+	<script src="sessions/sessionScript.js" type="text/javascript">
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+	</script>
 </head>
 <body>
   <div id="allcontent">
     <div id="banner">
-		<a href="index.html"><img src="images/homeBanner2.png" alt="D&amp;D Banner" /></a>
+		<a href="index.html"><img src="images/homeBanner2.png" alt="D&amp;D Banner" onload="dropListHigh()"/></a>
 	</div> <!--Closes the Banner div-->
 	<div id="navigation">
 		<ul>
 			<li><a class="home" href="index.html">Home</a></li>
 			<li class="dropdown"><a class="dropbtn" href="Lyle.html">Lyle Goodbarrel</a>
-				<div class="dropdownSessions">
-				<!--Update this list lyle.html, DMHome.html, index.html, sessionTemplate. lyleLoot.html, lyleNPCs.html, lyleQuests.html, lyleLocations.html, and sheet.html -->
+				<div class="dropdownSessions" id="dropList">
+				<!--Update this list lyle.html, DMHome.html, index.html, sessionTemplate. lyleLoot.html, lyleNPCs.html, lyleQuests.html, lyleLocations.html, and sheet.html
 					<a href="lyleLoot.html">Loot</a>
 					<a href="lyleNPCs.html">NPCs</a>
 					<a href="lyleQuests.html">Quests</a>
@@ -27,6 +31,7 @@
 					<a href="sessions/session3.html">Session 3 (28 January 2023)</a>
 					<a href="sessions/session4.html">Session 4 (04 February 2023)</a>
 					<a href="sessions/session5.html">Session 5 (18 February 2023)</a>
+					<a href="sessions/session6.html">Session 6 (25 February 2023)</a>
 					<a href="sessions/session7.html">Session 7 (04 March 2023)</a>
 					<a href="sessions/session8.html">Session 8 (11 March 2023)</a>
 					<a href="sessions/session9.html">Session 9 (18 March 2023)</a>
