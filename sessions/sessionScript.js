@@ -110,6 +110,10 @@ function dropListHigh() {
 	aTag19.setAttribute('href', "sessions/session16.html");
 	aTag19.innerText = "Session 16 (03 June 2023)";
 	mydiv.append(aTag19);
+	var aTag20 = document.createElement('a');
+	aTag20.setAttribute('href', "sessions/session17.html");
+	aTag20.innerText = "Session 17 (17 June 2023)";
+	mydiv.append(aTag20);
 }
 
 function dropListSession() {
@@ -194,4 +198,8 @@ function dropListSession() {
 	aTag19.setAttribute('href', "session16.html");
 	aTag19.innerText = "Session 16 (03 June 2023)";
 	mydiv.append(aTag19);
+	var aTag20 = document.createElement('a');
+	aTag20.setAttribute('href', "session17.html");
+	aTag20.innerText = "Session 17 (17 June 2023)";
+	mydiv.append(aTag20);
 }

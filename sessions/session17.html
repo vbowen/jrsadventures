@@ -1,0 +1,111 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Session 16</title>
+		<link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+		<link type="text/css" rel="stylesheet" href="../styles.css" />
+		<script src="sessionScript.js" type="text/javascript"> </script>
+</head>
+<body>
+  <div id="allcontent">
+  
+    <div id="banner">
+		<a href="../index.html"><img src="../images/homeBanner2.png" alt="D&amp;D Banner" onload="dropListSession()"/></a>
+	</div> <!--Closes the Banner div-->
+	
+	<div id="navigation">
+		<ul>
+			<li><a class="home" href="../index.html">Home</a></li>
+			<li class="dropdown"><a class="dropbtn" href="../Lyle.html">Lyle Goodbarrel</a>
+				<div class="dropdownSessions" id="dropList">
+				</div></li>				
+			<li><a class="DM" href="../DMHome.html">Dungeon Master</a></li>
+			<li><a class="sheets" href="../sheets.html">Character Sheets</a></li>
+		</ul>
+
+  	</div> <!--Closes the Navigation Div-->
+	
+	<div id="intro">	
+		<h1 id="sessionID">Session 17</h1>
+		<h2>17 June 2023</h2>
+
+		<h3>Notes</h3>
+			<p>While we have the rest of the day to do what we need to do to prepare for our trip to Deastock, we decide to explore <a href="../lyleLocations.html#zadash">Zadash</a> 
+				and see what all it has to offer. </p>
+			<p>As we </p>
+			<p class="sessionEnds">We end the session sitting in the basement of <a href="../lyleLocations.html#theEveningNip">The Evening Nip</a> ready to depart for 
+				our quest to Deastock.</p>
+<!-- Loot!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+		<h3><a href="../lyleLoot.html">Loot</a></h3>
+			<table style="width:100%">
+				<tr>
+					<th>Item</th>
+					<th>Given By/Bought</th>
+					<th>Who has it</th>
+					<th style="width:50%">Properties</th>
+				</tr>
+				
+			</table>
+<!-- NPCs!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+		<h3><a href="../lyleNPCs.html">NPCs</a></h3>
+			<table style="width:100%">
+				<tr>
+					<th>Name</th>
+					<th>Race/Class</th>
+					<th>Gender</th>
+					<th>Met/Location</th>
+					<th>Quests</th>
+					<th>Remarks/Notes</th>
+				</tr>
+				
+			</table>
+<!-- Locations!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+		<h3><a href="../lyleLocations.html">Locations</a></h3>
+			<table style="width:100%">
+				<tr>
+					<th>Name</th>
+					<th style="width:70%">Description</th>
+				</tr>
+				<tr>
+					<td id="zadash"><a href="../lyleLocations.html#zadash">Zadash</a></td>
+					<td>Contains a few different areas. Most notably, the <em>Innerstead Sprawl</em> which is in the dead center of the city and is definitely middle class.<br />
+						The <em>Penta Market</em> which is in the western portion and is full of merchants and vendors and bazaars.<br />
+						<em>Silkin Terrace</em> is on the northern end and where the wealth of the city resides. Buildings of marble and gold, courtyards and balconies, and 
+						gardens fill this portion of the city. <br />
+						The city has patrolling crownsguard who tend to be more prevalent in the slums and lower class section (Outerstead) but tend to travel in pairs or groups. 
+						While the crownsguard are keeping the peace, some businesses have chosen to also hire their own guards to watch over their store. Throughout the area
+						there are bulletin boards of job opportunities, wanted posters, deity leaflets, and recruitment posters for crownsguard.</td>
+				</tr>
+				<tr>
+					<td id="theUniqueDiamond"><a href="../lyleLocations.html#theUniqueDiamond">The Unique Diamond</a></td>
+					<td>A shop in the middle of the Penta Market and lies between a Tailor shop and a Butcher shop. Ran by a human male who offered Hee a 25% discount if he promoted
+						his shop and increased his customer base. Hee did not take the deal.
+					</td>
+				</tr>
+			</table>
+<!-- Quests!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+		<h3><a href="../lyleQuests.html">Quests</a></h3>
+			<table style="width:100%">
+				<tr>
+					<th>Given by</th>
+					<th style="width:70%">Information</th>
+				</tr>
+			</table>
+		<div id="next">
+			<a id="nextLink" href="#" onclick="nextPage()">Next &rarr;</a>  <!--nextPage() uses current h1 sessionID to grab next page -->
+		</div>
+		<div id="previous">
+			<a id="previousLink" href="#" onclick="previousPage()">&larr; Previous</a> 
+		</div>
+		<p><br /></p>
+	</div> <!-- closes Intro Div -->
+  </div>
+    <script type="text/javascript">
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+    </script>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+</html>
